@@ -1,0 +1,71 @@
+<nav id="navbar">
+  <header>JS Documentation</header>
+  <ul>
+    <li><a class="nav-link" href="#introduction">Introduction</a></li>
+    <li><a class="nav-link" href="#hello_world">Hello World</a></li>
+    <li><a class="nav-link" href="#variables">Variables</a></li>
+    <li><a class="nav-link" href="#constants">Constants</a></li>
+    <li><a class="nav-link" href="#if_else_statements">If Else Statements</a></li>
+    <li><a class="nav-link" href="#while_loops">While Loops</a></li>
+    <li><a class="nav-link" href="#data_types">Data Types</a></li>
+  </ul>
+</nav>
+<main id="main-doc">
+  <section class="main-section" id="introduction">
+    <header>Introduction</header>
+    <p>JavaScript is a cross-platform, object-oriented scripting language. It is a small and lightweight language. Inside a host environment (for example, a web browser), JavaScript can be connected to the objects of its environment to provide programmatic control over them.</p>
+    <p>During these formative years of the Web, web pages could only be static, lacking the capability for dynamic behavior after the page was loaded in the browser. There was a desire in the burgeoning web development scene to remove this limitation, so in 1995, Netscape decided to add a scripting language to Navigator. They pursued two routes to achieve this: collaborating with Sun Microsystems to embed the Java programming language, while also hiring Brendan Eich to embed the Scheme language.</p>
+    <p>Microsoft debuted Internet Explorer in 1995, leading to a browser war with Netscape. On the JavaScript front, Microsoft reverse-engineered the Navigator interpreter to create its own, called JScript.[20]
+
+JScript was first released in 1996, alongside initial support for CSS and extensions to HTML. Each of these implementations was noticeably different from their counterparts in Navigator.[21][22] These differences made it difficult for developers to make their websites work well in both browsers, leading to widespread use of "best viewed in Netscape" and "best viewed in Internet Explorer" logos for several years.</p>
+    <p>JavaScript contains a standard library of objects, such as Array, Date, and Math, and a core set of language elements such as operators, control structures, and statements. Core JavaScript can be extended for a variety of purposes by supplementing it with additional objects; for example:</p>
+    <ul>
+      <li>Client-side JavaScript extends the core language by supplying objects to control a browser and its Document Object Model (DOM). For example, client-side extensions allow an application to place elements on an HTML form and respond to user events such as mouse clicks, form input, and page navigation.</li>
+      <li>Server-side JavaScript extends the core language by supplying objects relevant to running JavaScript on a server. For example, server-side extensions allow an application to communicate with a database, provide continuity of information from one invocation to another of the application, or perform file manipulations on a server.</li>
+    </ul>
+    
+  </section>
+  <section class="main-section" id="hello_world">
+    <header>Hello World</header>
+    <p>To get started with writing JavaScript, open the Scratchpad and write your first "Hello world" JavaScript code:</p>
+    <code>function greetMe(yourName) { alert("Hello " + yourName); }
+greetMe("World");</code>
+    <p>Select the code in the pad and hit Ctrl+R to watch it unfold in your browser!</p>
+  </section>
+  <section class="main-section" id= "variables">
+    <header>Variables</header>
+    <p>You use variables as symbolic names for values in your application. The names of variables, called identifiers, conform to certain rules.
+
+A JavaScript identifier must start with a letter, underscore (_), or dollar sign ($); subsequent characters can also be digits (0-9). Because JavaScript is case sensitive, letters include the characters "A" through "Z" (uppercase) and the characters "a" through "z" (lowercase).
+      <code>if (condition) { statement_1_runs_if_condition_is_true;
+statement_2_runs_if_condition_is_true; } else {
+statement_3_runs_if_condition_is_false;
+statement_4_runs_if_condition_is_false; }</code>
+You can use ISO 8859-1 or Unicode letters such as å and ü in identifiers. You can also use the Unicode escape sequences as characters in identifiers. Some examples of legal names are Number_hits, temp99, and _name.</p>
+  </section>
+  <section class="main-section" id="constants">
+    <header>Constants</header>
+    <p>You can create a read-only, named constant with the const keyword. The syntax of a constant identifier is the same as for a variable identifier: it must start with a letter, underscore or dollar sign and can contain alphabetic, numeric, or underscore characters.</p>
+    <code>const PI = 3.14;</code>
+      </section>
+  <section class="main-section" id="if_else_statements">
+    <header>If Else Statements</header>
+    <p>Use the if statement to execute a statement if a logical condition is true. Use the optional else clause to execute a statement if the condition is false. An if statement looks as follows:</p>
+    <code>const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code>
+  </section>
+  <section class="main-section" id="while_loops">
+    <header >While Loops</header>
+    <p>A while statement executes its statements as long as a specified condition evaluates to true. A while statement looks as follows:</p>
+    <code>if (condition) { statement_1; } else { statement_2; }</code>
+  </section>
+  <section class="main-section" id="data_types">
+    <header>Data Types</header>
+    <p>The latest ECMAScript standard defines seven data types:</p>
+     <ul>
+      <li>The name of the function</li>
+      <li>A list of arguments to the function, enclosed in parentheses and separated by commas.</li>
+      <li>The JavaScript statements that define the function, enclosed in curly brackets, { }</li>
+      <li>After the first pass: n = 1 and x = 1</li>
+    </ul>
+  </section>
+</main>
