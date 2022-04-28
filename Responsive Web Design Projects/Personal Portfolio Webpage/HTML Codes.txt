@@ -1,0 +1,210 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Genos:wght@200&family=Lexend+Exa:wght@300&display=swap" rel="stylesheet"> 
+</head>
+
+<!-- NAVIGATION STARTS HERE -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
+  <!-- User Story #11: The navbar should always be at the top of the viewport. -->
+<!-- ADD STYLES FOR NAV  -->
+  
+  <div class="container-fluid">
+    <a class="navbar-brand" href="">
+      Enes  <span> HELLI</span> 
+    </a>
+    
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item active">
+
+ <!--  **** STEP 17 ****:  ADD THE ATTRIBUTE HREF-->
+<!--       User Story #7: The navbar should contain at least one link that I can click on to navigate to different sections of the page. -->
+        <a class="nav-link" href="#welcome-section">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#intro">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#contact-me">Contact Me</a>
+      </li>
+    </ul>
+  </div>
+  </div>
+</nav>
+
+<!-- SECTION ONE  -->
+<section id="welcome-section">
+  
+  <h1> On Road to <br>
+    <span>Software <br>
+      Development
+    </span>
+  </h1>
+  
+</section>
+
+<!-- SECTION TWO -->
+<section id="intro">
+  <div class="intro-text">
+    <p>
+      I am <span> tech enthusiast</span> who's passionate about creating innovative designs and
+         integrate core web development concepts into my personal or
+         professional projects. I will never stop learning and teaching.
+    </p>
+  </div>
+  
+  <div class="intro-image">
+    <img src="https://st.depositphotos.com/1008709/4676/i/600/depositphotos_46768767-stock-photo-hands-in-art-logo.jpg" alt="eh_logo">
+  </div>
+  
+  
+</section>
+
+<!-- SECTION THREE -->
+<section id="projects">
+  
+  <div class="all-projects">
+      <a href="https://codepen.io/eneshelli/full/vYpdeVG" target="_blank">
+    <div class="project-tile top-left">
+     <div class="image">
+       <img src="https://img-s1.onedio.com/id-61700fb97dde9387552108c3/rev-0/w-620/f-jpg/s-0298b5e826cadc22a5871bb068af9198e7251e66.jpg" alt="FCC Tribute Page">
+     </div>
+      <div class="content">
+        <h4>FCC Tribute Page</h4>
+        <p>Used HTML, and CSS for this project. Plain CSS was recommended because that is what the lessons have covered so far. </p>
+      </div>
+  </div>
+    
+  </a>
+ 
+   <a href="https://codepen.io/eneshelli/full/vYpdqYX" target="_blank">
+      <div class="project-tile top-right">
+          <div class="image">
+<!--                <img src="https://via.placeholder.com/200"  alt="placeholder"> -->
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoaJTzZL0xzUr__T8knAJQFTcwlpBLvJAvIQ&usqp=CAU" alt="FCC Survey form">
+             </div>
+          <div class="content">
+              <h4>FCC Survey Form</h4>
+              <p>Used HTML, and CSS for this project. Plain CSS was recommended, and used vertical form, utilized bootstrap styles. </p>
+            </div>
+      </div>
+    </a>
+    
+    <a href="https://codepen.io/eneshelli/full/WNdJpjm" target="_blank">
+      <div class="project-tile bottom-left">
+          <div class="image">
+<!--                <img src="https://via.placeholder.com/200"  alt="placeholder"> -->
+            <img src="https://github.com/traversecreate/assets/blob/master/Freecodecamp_Technical_Documentation_page.png?raw=true" alt="FCC Technical documentation page">
+             </div>
+          <div class="content">
+              <h4>FCC Technical Doc. Page</h4>
+              <p>Used HTML, and CSS to complete this project. Used plain CSS and utilized bootstrap navbar and made it mobile responsive.</p>
+            </div>
+      </div>
+     </a>
+    
+    <a href="https://codepen.io/eneshelli/full/abEYYKO" target="_blank">
+      <div class="project-tile bottom-right">
+            <div class="image">
+
+              <img src="https://olenadrugalyablog.files.wordpress.com/2020/03/landing_page_1-1.png?w=1024" alt="FCC Product Landing Page">
+             </div>
+            <div class="content">
+              <h4>FCC Product Landing Page</h4>
+              <p>Used HTML, and CSS to complete this project. Used plain CSS, flexbox and bootstrap, made the page mobile responsive.</p>
+            </div>
+      </div>
+     </a>
+  </div>
+ 
+</section>
+
+<!-- SECTION FOUR -->
+<section id="contact-me">
+  <div class="punch-line">
+    <h1>Let's Create<br>
+      Together
+    </h1>
+  </div>
+  
+  <div class="social">
+    <h4>Follow me on<br>
+      my socials
+    </h4>
+  <a href="https://github.com/GmCollector" id="profile-link"  target="_blank">
+      <p>GitHub <i class="fa-brands fa-github" id="profile-link"></i></p>
+    </a>
+    
+    <a href="https://freecodecamp.org" id="profile-link" target="_blank">
+      <p>FreeCodeCamp <i class="fa-brands fa-free-code-camp" target="_blank"></i></p>
+    </a>
+    
+     <a href="https://codepen.io/eneshelli" target="_blank">
+      <p>CodePen <i class="fa-brands fa-codepen"></i></p>
+    </a>
+    
+     <a href="" target="_blank">
+      <p>Twitter <i class="fa-brands fa-twitter"></i></p>
+    </a>
+    
+    
+    <a href="#">
+     <p>Instagram <i class="fa-brands fa-instagram"></i></p>
+    </a> <br>
+    
+    <span class="email">
+      <h4>Reach out for <br> a collab!</h4>
+      <p>helllllo@awesomewebsite.com</p>
+    </span>
+  </div>
+  
+  
+  
+</section>
+
+<footer>
+  <p>Portfolio&reg; 2022</p>
+  <span>Use this is as a template and don't copy the code. <br>
+    You're better than that. Happy Coding !</span>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
