@@ -1,0 +1,32 @@
+<head>
+ 
+</head>
+<body>
+  <div id="main">
+    <h1 id="title">ELON MUSK</h1>
+    <h2>The quotes from Elon MUSK as an entrepreneur, investor and true patriot</h2> 
+    
+    <div id="img-div">
+      <img id = "image" src= "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2022%2F03%2F10%2Felon-musk-twins.jpg" alt="Elon Musk with family foto" > 
+      <p id="img-caption"><em>The richest man in the country, Elon Musk, with his family</em></p>
+    </div>
+    <div id="tribute-info">
+      <p><b>Elon MUSK's Words Showing That He is 10 years ahead of us:</b></p>
+        <ul>
+          <li>If something is important enough, even if the odds are against you, you should still do it.</li>
+          <li>Going from PayPal, I thought: ‘Well, what are some of the other problems that are likely to most affect the future of humanity?' Not from the perspective, ‘What's the best way to make money?</li>
+          <li>(Physics is) a good framework for thinking. ... Boil things down to their fundamental truths and reason up from there.</li>
+          <li>The first step is to establish that something is possible; then probability will occur.</li>
+          <li>It's OK to have your eggs in one basket as long as you control what happens to that basket.</li>
+          <li>Persistence is very important. You should not give up unless you are forced to give up.</li>
+          <li>You want to have a future where you're expecting things to be better, not one where you're expecting things to be worse.</li>
+          <li>It is a mistake to hire huge numbers of people to get a complicated job done. Numbers will never compensate for talent in getting the right answer (two people who don't know something are no better than one), will tend to slow down progress, and will make the task incredibly expensive.</li>
+        </ul>
+    </div>
+      
+    If you have time, you should read more about this incredible human being on his 
+    <a href="https://en.wikipedia.org/wiki/Elon_Musk" target="_blank" id="tribute-link">Wikipedia entry.</a>
+    
+  </div>
+  
+</body>
